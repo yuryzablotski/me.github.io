@@ -91,7 +91,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <meta property="description" itemprop="description" content="Chi-Square Test checks the independence between two categorical variables, where variables can have two or more categories. Need to do Chi-Square test? It can actually be done with only one line of code. There is no better way than {ggbarstats} function from {ggstatsplot} package 📦. In this short blog-post you&#39;ll learn how to conduct, visualize and interpret Chi-Square test &amp; pairwise post-hoc tests in R."/>
 
-<link rel="canonical" href="https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
+<link rel="canonical" href="https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 <!--  https://schema.org/Article -->
@@ -103,8 +103,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="og:title" content="yuzaR-Blog: R demo | Chi-Square Test | how to conduct, visualize &amp; interpret | + pairwise post-hoc tests"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Chi-Square Test checks the independence between two categorical variables, where variables can have two or more categories. Need to do Chi-Square test? It can actually be done with only one line of code. There is no better way than {ggbarstats} function from {ggstatsplot} package 📦. In this short blog-post you&#39;ll learn how to conduct, visualize and interpret Chi-Square test &amp; pairwise post-hoc tests in R."/>
-<meta property="og:url" content="https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
-<meta property="og:image" content="https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/thumbnail.jpg"/>
+<meta property="og:url" content="https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
+<meta property="og:image" content="https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/thumbnail.jpg"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="yuzaR-Blog"/>
 
@@ -112,13 +112,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:title" content="yuzaR-Blog: R demo | Chi-Square Test | how to conduct, visualize &amp; interpret | + pairwise post-hoc tests"/>
 <meta property="twitter:description" content="Chi-Square Test checks the independence between two categorical variables, where variables can have two or more categories. Need to do Chi-Square test? It can actually be done with only one line of code. There is no better way than {ggbarstats} function from {ggstatsplot} package 📦. In this short blog-post you&#39;ll learn how to conduct, visualize and interpret Chi-Square test &amp; pairwise post-hoc tests in R."/>
-<meta property="twitter:url" content="https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
-<meta property="twitter:image" content="https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/thumbnail.jpg"/>
+<meta property="twitter:url" content="https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
+<meta property="twitter:image" content="https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/thumbnail.jpg"/>
 <meta property="twitter:site" content="@yuzaR___"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
 <meta name="citation_title" content="yuzaR-Blog: R demo | Chi-Square Test | how to conduct, visualize &amp; interpret | + pairwise post-hoc tests"/>
-<meta name="citation_fulltext_html_url" content="https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
+<meta name="citation_fulltext_html_url" content="https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"/>
 <meta name="citation_fulltext_world_readable" content=""/>
 <meta name="citation_online_date" content="2021/12/20"/>
 <meta name="citation_publication_date" content="2021/12/20"/>
@@ -128,7 +128,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","categories","preview","output","bibliography","biblio-style","link-citations","linkcolor","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["R demo | Chi-Square Test | how to conduct, visualize & interpret | + pairwise post-hoc tests"]},{"type":"character","attributes":{},"value":["Chi-Square Test checks the independence between two categorical variables, where variables can have two or more categories. Need to do Chi-Square test? It can actually be done with only one line of code. There is no better way than {ggbarstats} function from {ggstatsplot} package 📦. In this short blog-post you'll learn how to conduct, visualize and interpret Chi-Square test & pairwise post-hoc tests in R."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Yury Zablotski"]},{"type":"character","attributes":{},"value":["https://yuzar-blog.netlify.app/"]}]}]},{"type":"character","attributes":{},"value":["12-20-2021"]},{"type":"character","attributes":{},"value":["videos","statistics"]},{"type":"character","attributes":{},"value":["thumbnail.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float","toc_depth","code_download"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[6]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["/Users/zablotski/Documents/library.bib"]},{"type":"character","attributes":{},"value":["apalike"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["blue"]},{"type":"character","attributes":{},"value":["https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"]},{"type":"character","attributes":{},"value":["https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","categories","preview","output","bibliography","biblio-style","link-citations","linkcolor","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["R demo | Chi-Square Test | how to conduct, visualize & interpret | + pairwise post-hoc tests"]},{"type":"character","attributes":{},"value":["Chi-Square Test checks the independence between two categorical variables, where variables can have two or more categories. Need to do Chi-Square test? It can actually be done with only one line of code. There is no better way than {ggbarstats} function from {ggstatsplot} package 📦. In this short blog-post you'll learn how to conduct, visualize and interpret Chi-Square test & pairwise post-hoc tests in R."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Yury Zablotski"]},{"type":"character","attributes":{},"value":["https://yuzar-blog.netlify.app/"]}]}]},{"type":"character","attributes":{},"value":["12-20-2021"]},{"type":"character","attributes":{},"value":["videos","statistics"]},{"type":"character","attributes":{},"value":["thumbnail.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float","toc_depth","code_download"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[6]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["/Users/zablotski/Documents/library.bib"]},{"type":"character","attributes":{},"value":["apalike"]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["blue"]},{"type":"character","attributes":{},"value":["https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"]},{"type":"character","attributes":{},"value":["https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2723,19 +2723,19 @@ A BibTeX entry for LaTeX users is
     </span>
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=R%20demo%20%7C%20Chi-Square%20Test%20%7C%20how%20to%20conduct%2C%20visualize%20%26%20interpret%20%7C%20%2B%20pairwise%20post-hoc%20tests&amp;url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F" aria-label="share on twitter">
+      <a href="https://twitter.com/share?text=R%20demo%20%7C%20Chi-Square%20Test%20%7C%20how%20to%20conduct%2C%20visualize%20%26%20interpret%20%7C%20%2B%20pairwise%20post-hoc%20tests&amp;url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F" aria-label="share on twitter">
         <i class="fab fa-twitter" aria-hidden="true"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F&amp;title=R%20demo%20%7C%20Chi-Square%20Test%20%7C%20how%20to%20conduct%2C%20visualize%20%26%20interpret%20%7C%20%2B%20pairwise%20post-hoc%20tests" aria-label="share on linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F&amp;title=R%20demo%20%7C%20Chi-Square%20Test%20%7C%20how%20to%20conduct%2C%20visualize%20%26%20interpret%20%7C%20%2B%20pairwise%20post-hoc%20tests" aria-label="share on linkedin">
         <i class="fab fa-linkedin" aria-hidden="true"></i>
       </a>
-      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F" aria-label="share on facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fme.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F" aria-label="share on facebook">
         <i class="fab fa-facebook" aria-hidden="true"></i>
       </a>
-      <a href="https://plus.google.com/share?url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F" aria-label="share on google-plus">
+      <a href="https://plus.google.com/share?url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F" aria-label="share on google-plus">
         <i class="fab fa-google-plus" aria-hidden="true"></i>
       </a>
-      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F&amp;description=R%20demo%20%7C%20Chi-Square%20Test%20%7C%20how%20to%20conduct%2C%20visualize%20%26%20interpret%20%7C%20%2B%20pairwise%20post-hoc%20tests" aria-label="share on pinterest">
+      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-12-14-how-to-conduct-chi-square-test-in-r%2F&amp;description=R%20demo%20%7C%20Chi-Square%20Test%20%7C%20how%20to%20conduct%2C%20visualize%20%26%20interpret%20%7C%20%2B%20pairwise%20post-hoc%20tests" aria-label="share on pinterest">
         <i class="fab fa-pinterest" aria-hidden="true"></i>
       </a>
     </span>
@@ -2744,7 +2744,7 @@ A BibTeX entry for LaTeX users is
   <div id="disqus_thread" class="hidden"></div>
   <script type="text/javascript" cookie-consent="functionality">
 var disqus_config = function () {
-  this.page.url = 'https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/';
+  this.page.url = 'https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/';
   this.page.identifier = 'posts/2021-12-14-how-to-conduct-chi-square-test-in-r/';
 };
 (function() {
@@ -2783,12 +2783,12 @@ var disqus_config = function () {
   <p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/yuryzablotski/yuzaR-Blog">https://github.com/yuryzablotski/yuzaR-Blog</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Zablotski (2021, Dec. 20). yuzaR-Blog: R demo | Chi-Square Test | how to conduct, visualize &amp; interpret | + pairwise post-hoc tests. Retrieved from https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/</pre>
+  <pre class="citation-appendix short">Zablotski (2021, Dec. 20). yuzaR-Blog: R demo | Chi-Square Test | how to conduct, visualize &amp; interpret | + pairwise post-hoc tests. Retrieved from https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{zablotski2021r,
   author = {Zablotski, Yury},
   title = {yuzaR-Blog: R demo | Chi-Square Test | how to conduct, visualize &amp; interpret | + pairwise post-hoc tests},
-  url = {https://yuryzablotski.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/},
+  url = {https://me.github.io/posts/2021-12-14-how-to-conduct-chi-square-test-in-r/},
   year = {2021}
 }</pre>
 </div>

@@ -90,7 +90,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <meta property="description" itemprop="description" content="A picture is worth a thousand words! This article shows how to visualize results of 16 different models in R: from a simple linear model to a multiple-additive-non-linear-mixed-effects model. Among them are logistic, multinomial, additive and survival models with and without interactions. **Goal: minimum R code &amp; maximum output!** We&#39;ll also go a bit beyond only model visualization. So, don&#39;t miss the bonuses 😉."/>
 
-<link rel="canonical" href="https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
+<link rel="canonical" href="https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 <!--  https://schema.org/Article -->
@@ -102,8 +102,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="og:title" content="yuzaR-Blog: How to visualize models, their assumptions and post-hocs"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="A picture is worth a thousand words! This article shows how to visualize results of 16 different models in R: from a simple linear model to a multiple-additive-non-linear-mixed-effects model. Among them are logistic, multinomial, additive and survival models with and without interactions. **Goal: minimum R code &amp; maximum output!** We&#39;ll also go a bit beyond only model visualization. So, don&#39;t miss the bonuses 😉."/>
-<meta property="og:url" content="https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
-<meta property="og:image" content="https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/thumbnail_visualize_models.png"/>
+<meta property="og:url" content="https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
+<meta property="og:image" content="https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/thumbnail_visualize_models.png"/>
 <meta property="og:image:width" content="1920"/>
 <meta property="og:image:height" content="1080"/>
 <meta property="og:locale" content="en_US"/>
@@ -113,15 +113,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:title" content="yuzaR-Blog: How to visualize models, their assumptions and post-hocs"/>
 <meta property="twitter:description" content="A picture is worth a thousand words! This article shows how to visualize results of 16 different models in R: from a simple linear model to a multiple-additive-non-linear-mixed-effects model. Among them are logistic, multinomial, additive and survival models with and without interactions. **Goal: minimum R code &amp; maximum output!** We&#39;ll also go a bit beyond only model visualization. So, don&#39;t miss the bonuses 😉."/>
-<meta property="twitter:url" content="https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
-<meta property="twitter:image" content="https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/thumbnail_visualize_models.png"/>
+<meta property="twitter:url" content="https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
+<meta property="twitter:image" content="https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/thumbnail_visualize_models.png"/>
 <meta property="twitter:image:width" content="1920"/>
 <meta property="twitter:image:height" content="1080"/>
 <meta property="twitter:site" content="@yuzaR___"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
 <meta name="citation_title" content="yuzaR-Blog: How to visualize models, their assumptions and post-hocs"/>
-<meta name="citation_fulltext_html_url" content="https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
+<meta name="citation_fulltext_html_url" content="https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"/>
 <meta name="citation_fulltext_world_readable" content=""/>
 <meta name="citation_online_date" content="2021/01/01"/>
 <meta name="citation_publication_date" content="2021/01/01"/>
@@ -130,7 +130,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","output","categories","preview","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["How to visualize models, their assumptions and post-hocs"]},{"type":"character","attributes":{},"value":["A picture is worth a thousand words! This article shows how to visualize results of 16 different models in R: from a simple linear model to a multiple-additive-non-linear-mixed-effects model. Among them are logistic, multinomial, additive and survival models with and without interactions. **Goal: minimum R code & maximum output!** We'll also go a bit beyond only model visualization. So, don't miss the bonuses 😉."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Yury Zablotski"]},{"type":"character","attributes":{},"value":["https://yury-zablotski.netlify.app/"]}]}]},{"type":"character","attributes":{},"value":["01-01-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float","code_download"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["visualization","videos","models"]},{"type":"character","attributes":{},"value":["thumbnail_visualize_models.png"]},{"type":"character","attributes":{},"value":["https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"]},{"type":"character","attributes":{},"value":["https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","description","author","date","output","categories","preview","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["How to visualize models, their assumptions and post-hocs"]},{"type":"character","attributes":{},"value":["A picture is worth a thousand words! This article shows how to visualize results of 16 different models in R: from a simple linear model to a multiple-additive-non-linear-mixed-effects model. Among them are logistic, multinomial, additive and survival models with and without interactions. **Goal: minimum R code & maximum output!** We'll also go a bit beyond only model visualization. So, don't miss the bonuses 😉."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Yury Zablotski"]},{"type":"character","attributes":{},"value":["https://yury-zablotski.netlify.app/"]}]}]},{"type":"character","attributes":{},"value":["01-01-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float","code_download"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["visualization","videos","models"]},{"type":"character","attributes":{},"value":["thumbnail_visualize_models.png"]},{"type":"character","attributes":{},"value":["https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"]},{"type":"character","attributes":{},"value":["https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -3173,19 +3173,19 @@ P value adjustment method: fdr </code></pre>
     </span>
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=How%20to%20visualize%20models%2C%20their%20assumptions%20and%20post-hocs&amp;url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F" aria-label="share on twitter">
+      <a href="https://twitter.com/share?text=How%20to%20visualize%20models%2C%20their%20assumptions%20and%20post-hocs&amp;url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F" aria-label="share on twitter">
         <i class="fab fa-twitter" aria-hidden="true"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F&amp;title=How%20to%20visualize%20models%2C%20their%20assumptions%20and%20post-hocs" aria-label="share on linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F&amp;title=How%20to%20visualize%20models%2C%20their%20assumptions%20and%20post-hocs" aria-label="share on linkedin">
         <i class="fab fa-linkedin" aria-hidden="true"></i>
       </a>
-      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F" aria-label="share on facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fme.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F" aria-label="share on facebook">
         <i class="fab fa-facebook" aria-hidden="true"></i>
       </a>
-      <a href="https://plus.google.com/share?url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F" aria-label="share on google-plus">
+      <a href="https://plus.google.com/share?url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F" aria-label="share on google-plus">
         <i class="fab fa-google-plus" aria-hidden="true"></i>
       </a>
-      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fyuryzablotski.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F&amp;description=How%20to%20visualize%20models%2C%20their%20assumptions%20and%20post-hocs" aria-label="share on pinterest">
+      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fme.github.io%2Fposts%2F2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs%2F&amp;description=How%20to%20visualize%20models%2C%20their%20assumptions%20and%20post-hocs" aria-label="share on pinterest">
         <i class="fab fa-pinterest" aria-hidden="true"></i>
       </a>
     </span>
@@ -3194,7 +3194,7 @@ P value adjustment method: fdr </code></pre>
   <div id="disqus_thread" class="hidden"></div>
   <script type="text/javascript" cookie-consent="functionality">
 var disqus_config = function () {
-  this.page.url = 'https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/';
+  this.page.url = 'https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/';
   this.page.identifier = 'posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/';
 };
 (function() {
@@ -3231,12 +3231,12 @@ var disqus_config = function () {
   <p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/yuryzablotski/yuzaR-Blog">https://github.com/yuryzablotski/yuzaR-Blog</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Zablotski (2021, Jan. 1). yuzaR-Blog: How to visualize models, their assumptions and post-hocs. Retrieved from https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/</pre>
+  <pre class="citation-appendix short">Zablotski (2021, Jan. 1). yuzaR-Blog: How to visualize models, their assumptions and post-hocs. Retrieved from https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{zablotski2021how,
   author = {Zablotski, Yury},
   title = {yuzaR-Blog: How to visualize models, their assumptions and post-hocs},
-  url = {https://yuryzablotski.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/},
+  url = {https://me.github.io/posts/2021-01-01-how-to-visualize-models-their-assumptions-and-post-hocs/},
   year = {2021}
 }</pre>
 </div>
